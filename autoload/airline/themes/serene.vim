@@ -1,5 +1,5 @@
 " MIT License. Copyright (c) 2013-2021 Bailey Ling & Contributors.
-# Taken from: https://github.com/vim-airline/vim-airline-themes
+" Taken from: https://github.com/vim-airline/vim-airline-themes
 
 let g:airline#themes#serene#palette = {}
 
