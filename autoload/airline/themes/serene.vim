@@ -1,13 +1,16 @@
+" MIT License. Copyright (c) 2013-2021 Bailey Ling & Contributors.
+# Taken from: https://github.com/vim-airline/vim-airline-themes
+
 let g:airline#themes#serene#palette = {}
 
 let s:guibg = '#080808'
 let s:termbg = 232
 let s:termsep = 236
-let s:guisep = '#303030'
+let s:guisep = '#1c1d19'
 
 let s:N1 = [ '#00dfff' , s:guibg , 45  , s:termbg ]
 let s:N2 = [ '#ff5f00' , s:guibg , 202 , s:termbg ]
-let s:N3 = [ '#767676' , s:guibg , 7   , s:termbg ]
+let s:N3 = [ '#969696' , s:guibg , 7   , s:termbg ]
 
 let g:airline#themes#serene#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#serene#palette.normal_modified = {
@@ -34,8 +37,7 @@ let s:V3 = [ '#767676' , s:guibg , 7   , s:termbg ]
 let g:airline#themes#serene#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#serene#palette.visual_modified = copy(g:airline#themes#serene#palette.normal_modified)
 
-let s:IA  = [ '#4e4e4e' , s:guibg  , 239 , s:termbg  , '' ]
-let s:IA2 = [ '#4e4e4e' , s:guisep , 239 , s:termsep , '' ]
+let s:IA  = [ '#d78700' , s:guibg  , 239 , s:termbg  , '' ]
+let s:IA2 = [ '#d78700' , s:guisep , 239 , s:termsep , '' ]
 let g:airline#themes#serene#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA2, s:IA2)
 let g:airline#themes#serene#palette.inactive_modified = copy(g:airline#themes#serene#palette.normal_modified)
-
